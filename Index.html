@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script type="module" src="/Controller/firebase.js"></script>
+    
+	<link rel="stylesheet" href="/Styles/Style_Index.css">
+    <link rel="icon" href="/Resources/logo.jpg">
+
+	<title>INICIO DE SESION</title>
+
+</head>
+<body>
+	
+	<section class="formulario-iniciarsesion">
+
+        <form class="contenedor" id="formulario-sesion">
+            <h2>Inicia Sesión</h2>
+            <h3>Usuario</h3>
+            <input type="text" id="email" name="Email"> <br>
+            <h3>Contraseña</h3>
+            <input type="password" id="password" name="Password"> <br> 
+            <button id="loginbtn" class="button-login" type="submit">Iniciar Sesión</button> <br>
+			<a href="/Templates/Registro.html">Registrarse</a>
+
+        </form>
+
+    </section>
+
+	<script type="module" src="/Controller/index.js"></script>
+    <script type="module" src="/Controller/autentication.js"></script>
+
+</body>
+</html>
+
+
